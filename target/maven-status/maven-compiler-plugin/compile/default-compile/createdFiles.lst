@@ -1,0 +1,6 @@
+com/fc/config/ApplicationInitializer.class
+com/fc/resources/FristMicroServiceController.class
+com/fc/exception/ApplicationException.class
+com/fc/repository/FristMicroServiceRepository.class
+com/fc/service/FristMicroServiceService.class
+com/fc/domain/FristMicroService.class
