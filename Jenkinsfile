@@ -1,18 +1,16 @@
-pipeline{
-    agent any
-    environment{
-        PATH = "/usr/local/Cellar/maven/3.6.3/bin:$PATH"
+pipeline {
+  agent none
+  stages
+   {
+    stage('Maven Install')
+     {
+      agent {
+        docker {
+          image 'maven:3.5.0'
+        }
+      }
+      steps {
+        sh 'mvn clean install'
+      }
     }
-    stages{
-        stage("Git Checkout"){
-            steps{
-               git credentialsId: 'Github', url: 'https://github.com/AakashMaheedar/FristMicroServiceService'
-            }
-        }
-        stage("Maven Build"){
-            steps{
-                sh "mvn clean install"
-            }
-        }
-        }
-}
+   }

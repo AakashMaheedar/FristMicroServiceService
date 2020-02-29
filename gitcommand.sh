@@ -11,8 +11,7 @@ USERNAME=AakashMaheedar
 echo "what is the absolute path to your local project directory?"
 PROJECT_PATH=${pwd}
 
-echo "What is your github username?"
-read USERNAME
+
 
 # step 3 : go to path
 cd "$PROJECT_PATH"

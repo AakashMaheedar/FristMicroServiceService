@@ -2,9 +2,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.fc</groupId>
+    <groupId>com.freshchat</groupId>
     <artifactId>sampleAakashSap</artifactId>
-    <version>1.0</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>sampleAakashSap</name>
@@ -42,7 +42,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-dependency-plugin</artifactId>
+            <version>3.1.1</version>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -70,6 +74,6 @@
                 </plugin>
             </plugins>
         </pluginManagement>
-        <finalName>Spring-boot-docker</finalName>
+        <finalName>firstmicroservice</finalName>
     </build>
 </project>
