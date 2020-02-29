@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   tools {
-    maven 'mvn-3.5.2'
+    maven 'Maven'
   }
 
   stages {
@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Make Container') {
           steps {
-          sh "docker build -f Dockerfile -t firstmicroservice.jar ."
+          sh "docker.Build(firstmicroservice.jar) "
 
           }
         }
