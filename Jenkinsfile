@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Make Container') {
           steps {
-          sh "docker.Build(firstmicroservice.jar) "
+          sh 'docker.Build("firstmicroservice.jar") '
 
           }
         }
