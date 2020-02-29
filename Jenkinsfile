@@ -11,7 +11,7 @@ pipeline
                 }
             }
       steps {
-        sh 'mvn clean install'
+        sh 'docker build -f Dockerfile -t firstmicroservice.jar . '
             }
       }
    }
