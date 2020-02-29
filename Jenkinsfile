@@ -7,7 +7,7 @@ pipeline
      {
       agent {
         docker {
-          image 'maven:3.5.0'
+          filename "Dockerfile"
                 }
             }
       steps {

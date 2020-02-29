@@ -4,6 +4,10 @@
     <list default="true" id="e8da2ea5-51b9-47e8-9333-6986af3034f4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/firstmicroservice.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/firstmicroservice.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/firstmicroservice.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/firstmicroservice.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582870427025</updated>
-      <workItem from="1582870429533" duration="3574000" />
+      <workItem from="1582870429533" duration="4241000" />
     </task>
     <servers />
   </component>
