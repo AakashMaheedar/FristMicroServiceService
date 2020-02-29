@@ -11,5 +11,11 @@ pipeline {
         sh 'mvn clean install'
       }
     }
+    stage('Make Container') {
+          steps {
+          sh "docker build -f Dockerfile -t firstmicroservice.jar ."
+
+          }
+        }
    }
 }
