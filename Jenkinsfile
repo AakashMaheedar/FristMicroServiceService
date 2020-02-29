@@ -6,7 +6,7 @@ pipeline
     stage('Maven Install')
      {
       agent {
-        docker {
+        dockerfile {
           filename "Dockerfile"
                 }
             }
