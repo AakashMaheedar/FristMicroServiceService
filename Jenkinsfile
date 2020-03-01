@@ -11,7 +11,9 @@ pipeline {
         sh 'mvn clean install'
       }
     }
-    stage('Make Container') {
+    stage('Make Container')
+        agent (docker true)
+     {
           steps {
           sh 'docker run '
 
